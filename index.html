@@ -421,37 +421,6 @@
         <div class="container mx-auto px-6">
             <div class="flex justify-between items-center mb-8">
                 <h3 class="text-4xl font-bold text-gray-800">Latest Updates</h3>
-                <button id="addUpdateBtn" class="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">Add Update</button>
-            </div>
-            
-            <!-- Add Update Form -->
-            <div id="updateForm" class="hidden bg-white p-6 rounded-lg shadow-lg mb-8">
-                <h4 class="text-xl font-bold mb-4">Publish New Update</h4>
-                <form id="newUpdateForm">
-                    <div class="grid md:grid-cols-2 gap-4 mb-4">
-                        <div>
-                            <label for="updateTitle" class="block text-sm font-medium text-gray-700 mb-2">Title</label>
-                            <input type="text" id="updateTitle" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required>
-                        </div>
-                        <div>
-                            <label for="updateCategory" class="block text-sm font-medium text-gray-700 mb-2">Category</label>
-                            <select id="updateCategory" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent">
-                                <option value="alert">Security Alert</option>
-                                <option value="news">News</option>
-                                <option value="advisory">Advisory</option>
-                                <option value="training">Training</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="mb-4">
-                        <label for="updateContent" class="block text-sm font-medium text-gray-700 mb-2">Content</label>
-                        <textarea id="updateContent" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required></textarea>
-                    </div>
-                    <div class="flex gap-4">
-                        <button type="submit" class="bg-green-600 text-white px-6 py-2 rounded-lg hover:bg-green-700 transition-colors">Publish Update</button>
-                        <button type="button" id="cancelUpdate" class="bg-gray-500 text-white px-6 py-2 rounded-lg hover:bg-gray-600 transition-colors">Cancel</button>
-                    </div>
-                </form>
             </div>
 
             <!-- Updates List -->
@@ -1099,6 +1068,7 @@
     </script>
 <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'99025460f175a485',t:'MTc2MDczMDY3Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
 </html>
+
 
 
 
